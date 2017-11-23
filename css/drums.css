@@ -1,0 +1,9 @@
+img {
+    height:100px;
+    width:auto;
+    border-radius: 5px;
+}
+
+h1, div, iframe, img {
+    margin:10px;
+}
