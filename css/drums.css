@@ -1,9 +1,26 @@
 img {
-    height:100px;
-    width:auto;
-    border-radius: 5px;
+    height: 100px;
+    width: 100px;
 }
 
-h1, div, iframe, img {
-    margin:10px;
+h1, div {
+	margin: 10px 30px;
+} 
+
+span {
+	margin: 20px;
 }
+
+iframe{
+    margin: 10px;
+}
+
+button {
+	padding: 0;
+	border: 4px solid black;
+}
+
+.change {
+	color: red;
+	font-style: italic;
+} 
