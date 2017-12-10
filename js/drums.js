@@ -1,25 +1,15 @@
-function play(elid){
+function play(elid) {
+    var audio = document.getElementById(elid);
+    if (audio != null){
+        audio.play();
+        $('h1').toggleClass("change");
+    }
+}
 
-           var audio = document.getElementById(elid);
-
-           if (audio != null){
-
-               audio.play();
-
-           }
-
-       }
-
-       
-
-        function onKeyDown(event){
-
-            console.log(event);
-
-           play(event.key);
-
-        }
+function onKeyDown(event){
+    console.log(event);
+        play(event.key);
+}
 
 
-
-        window.addEventListener('keydown', onKeyDown);
+window.addEventListener('keydown', onKeyDown);
